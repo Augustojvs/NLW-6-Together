@@ -11,7 +11,7 @@ export function RoomCode(props: RoomCodeProps){
   function copyRoomCodeToClipboard() {
     navigator.clipboard.writeText(props.code)
 
-    toast.success('Codigo copiado com sucesso', { duration: 3000 })
+    toast.success('Código copiado com sucesso', { duration: 3000 })
   }
 
   return (
